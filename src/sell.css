@@ -1,0 +1,125 @@
+.sell-container{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.sell-dash-board{
+    border-radius: 5vh;
+    margin-top: 20vh;
+    align-self: center;
+    padding: 5vh;
+    width: 80vh;
+    height: auto;
+    border: solid 0.3vh black;
+    font-family: var(--nstyle)
+}
+.sell-dash-top{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    justify-content: left;
+    align-items: center;
+}
+.sell-dash-name{
+    font-family: var(--mstyle);
+    border-radius: 2vh;
+    font-size: 5vh;
+}
+.sell-dash-pic{
+    height: 20vh;
+    width: 20vh;
+    min-width: 20vh;
+    min-height: 20vh;
+}
+.sell-dash-pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.sell-dash-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.publish-product{
+    background: black;
+    color: white;
+    border-radius: 2vh;
+    padding: 1vh;
+    font-size: 4vh;
+    font-family: var(--mstyle);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.publish-product:hover{
+    background: white;
+    color: black;
+    border: solid black 0.2vh;
+}
+.publish-form-container{
+    margin-top: 5vh;
+}
+.publish-form{
+    display: flex;
+    flex-direction: column;
+}
+.drop-image{
+    padding: 1rem;
+    border: solid 0.1vh black;
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop-image button{
+    font-size: 5vh;
+}
+.form-input label, .form-label{
+    font-size: 3vh;
+}
+.form-input input{
+   font-family: var(--nstyle);
+   margin-top: 2vh;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: solid 0.1vh black;
+}
+.form-input input:focus{
+    outline: none;
+    border-bottom: solid 0.4vh black;
+}
+.drop-box{
+    border-bottom: solid 0.1vh black;
+}
+.drop-box:focus{
+    outline: none;
+    border: solid 0.3vh black;
+}
+.drop-image button{
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.submit-form{
+    margin-top: 3vh;
+    background:white;
+    color: black;
+    border: solid 0.1vh black;
+    border-radius: 1vh;
+    padding: 1vh;
+    font-size: 4vh;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: var(--mstyle);
+}
+.submit-form:hover{
+    background: black;
+    color: white;
+    box-shadow:  white 0px 0px 0px 3px, black 0px 0px 0px 5px;
+}

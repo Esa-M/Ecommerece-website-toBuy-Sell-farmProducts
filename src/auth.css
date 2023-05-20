@@ -1,0 +1,108 @@
+:root{
+    --mstyle : 'Lilita One', cursive;
+    --nstyle :'Poppins', sans-serif;
+    --31:rgba(0, 0, 0, 0.802);
+}
+
+body{
+padding: 0px;
+margin: 0px;
+}
+
+.root-auth{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.auth-logo{
+    height: 4vh;
+    width: 4vh;
+    border-radius: 50%;
+    background:transparent;
+}
+.auth-logo-conatainer{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}
+.logo-txt{
+   color: black;
+   font-family: var(--mstyle);
+   font-size: 1.5rem;
+   
+}
+.auth-logo img{
+    height: 100%;
+    width: 100%;
+}
+.root-auth-text{
+    height: 100vh;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.root-auth-text div{
+    padding: 2rem;
+}
+.auth-txt-content{
+    margin-top: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 6vh;
+    font-family: var(--mstyle);
+    color: black;
+}
+.auth-txt--quotes{
+    font-size: 2.5vh;
+    font-family: var(--nstyle);
+    
+}
+.root-auth-button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.root-auth-button-container button{
+    font-size: 2.5vh;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border: solid 0.1rem black;
+    background-color: white;
+    color: black;
+}
+.root-auth-button-container button:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.root-auth-bg{
+    height: 90vh;
+    align-self: center;
+    width: 50%;
+    background:transparent;
+    border-radius: 5rem 0 0 5rem;
+    border-bottom: solid .4rem white;
+    border-left: solid .4rem white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.root-auth-bg span{
+   
+    font-size: 6vh;
+    font-family: var(--mstyle);
+    align-self: center;
+    color: white;
+    opacity: 0.9;
+}

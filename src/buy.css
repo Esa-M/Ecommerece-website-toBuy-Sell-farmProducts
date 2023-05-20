@@ -1,0 +1,235 @@
+.buy-root-container{
+    position: relative;
+    display: flex;
+}
+.buy-root-nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 3rem;
+    height: auto;
+    margin-top: 3vh;
+}
+.buy-root-nav-elements{
+    align-self: center;
+    position: absolute;
+    right: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vh;
+}
+.buy-root-profile{
+  height: 5vh;
+  width: 5vh;
+}
+.buy-root-profile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.buy-elements{
+    font-size: 2vh;
+    padding: 0.5rem;
+    font-family: var(--nstyle);
+    border:solid 0.02rem black;
+    border-radius:2vh;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.buy-elements:hover{
+    color: white;
+    background-color: black;
+    box-shadow:  white 0px 0px 0px 3px, black 0px 0px 0px 5px;
+}
+.buy-info{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 2rem;
+    /* margin-top: -10vh; */
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+.buy-info-image{
+  height: 40vh;
+  width: 40vh;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  overflow:hidden;
+  scroll-behavior: smooth;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.buy-image-slide{
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+}
+.buy-info-txt{
+    position: relative;
+    width: 50%;
+    padding: 4vh;
+    font-size: 3.5vh;
+    font-family: var(--nstyle);
+    text-align: justify;
+}
+.buy-info-txt span{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-family: var(--mstyle);
+    font-size: 4vh;
+    position: absolute;
+    top: 0rem;
+   
+}
+.buy-container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.buy-container span{
+  align-self: center;
+  background-color: black;
+  color: white;
+  font-family: var(--mstyle);
+  padding: 1vh;  
+  font-size: 4vh;
+  border-radius: 1vh;
+}
+.buy-caurosol{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 2vh;
+}
+.buy-title{
+  position: absolute;
+  left: 3vh;
+  top: 0vh;
+  font-family: var(--mstyle);
+  padding: 1vh;  
+  font-size: 4vh;
+  border-radius: 1vh;
+}
+.buy-caurosol-container{
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+    gap: 5vh;
+    align-items: center;
+    margin-top: 7vh;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.buy-caurosol-container button{
+    position: absolute;
+    height: 7vh;
+    width: 7vh;
+    font-size: 4vh;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.532) 0px 3px 8px;
+    opacity: 0.8;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+.buy-caurosol-container button:hover{
+   opacity: 1;
+}
+.product-container{
+    position: relative;
+    border-radius: 3vh;
+    height: 35vh;
+    width:70vh;
+    min-width:70vh;
+    min-height:35vh ;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 2vh;
+    align-items: center;
+    height: 30%;
+    background-color: white;
+    gap: 5vh;
+    border-radius: 3vh;
+}
+.product-top p{
+    font-family: var(--nstyle);
+}
+.product-pic{
+    height: 12vh;
+    width: 12vh;
+    min-width: 12vh;
+    height: 12vh;
+    border-radius: 50%;
+    background: grey;
+}
+.product-title{
+    font-family: var(--mstyle);
+    padding: 1vh;  
+    font-size: 3vh;
+    border-radius: 1vh;
+}
+.product-bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    font-size: 2vh;
+    font-family: var(--nstyle);
+}
+.product-bottom-bottom{
+    display: flex;
+    flex-direction: row;
+
+}
+.product-contact{
+    position: absolute;
+    bottom: 1.2vh;
+    left: 1.2vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.product-contact span{
+    padding: 0vh;
+}
+.product-add{
+    position: absolute;
+    bottom: 3vh;
+    right: 3vh;
+}
+.product-add span{
+    font-family: var(--nstyle);
+    font-size: 2vh;
+    color: black;
+    background: white;
+    border: 0.2vh solid black;
+    border-radius: 1.5vh;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.product-add span:hover{
+    background: black;
+    color: white;
+}
+.publisher:hover{
+    text-decoration: underline;
+}
