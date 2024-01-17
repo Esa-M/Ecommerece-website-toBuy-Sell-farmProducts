@@ -1,4 +1,9 @@
-# Ecommerece-website-toBuy-Sell-farmProducts
-An Ecommerce webiste to sell and buy the 🧑‍🌾  farm products for the farmers and the commoner by using ReactJs as front end and firebase as back end
-the website will use your gmail Account as an unique id to store the info of your 📜 products buy list and 📜 sell list and track of your product selling rate (if you sell product through this website)
-website link 👉 https://aqua-bf4fc.web.app/
+# Ecommerce Website for Buying and Selling Farm Products
+
+## Overview
+
+Welcome to our Ecommerce platform dedicated to facilitating the exchange of farm products between farmers and consumers. This platform serves as a digital marketplace where farmers can showcase and sell their fresh produce, and consumers can easily browse, purchase, and support local agriculture.
+
+## Live Demo
+
+Check out the live demo [here](https://aqua-bf4fc.web.app/).
